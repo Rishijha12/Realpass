@@ -1,0 +1,1182 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1648F75F7644F9A7944E0201 /* Pods_realpass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3858A88B82E85B776BCAD22E /* Pods_realpass.framework */; };
+		8B22CE0A261455F7007FCFF5 /* ContactDayStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B22CE09261455F7007FCFF5 /* ContactDayStatus.swift */; };
+		8B3ABF32261C6FA50093E218 /* BrokerListVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3ABF31261C6FA50093E218 /* BrokerListVc.swift */; };
+		8B521FF7261591C300D6E2E9 /* SubrubsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B521FF6261591C300D6E2E9 /* SubrubsVC.swift */; };
+		8B521FFA26159C4100D6E2E9 /* SubrubsCellVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B521FF926159C4100D6E2E9 /* SubrubsCellVC.swift */; };
+		8B523BC62620791B00B2AAA2 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B523BC52620791B00B2AAA2 /* File.swift */; };
+		8B79B0A2261DBE6B007E7449 /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B79B0A1261DBE6A007E7449 /* PresentationController.swift */; };
+		8B8DBBD92657FC1A001EE74F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B8DBBD82657FC1A001EE74F /* GoogleService-Info.plist */; };
+		8B97EECC2694619300893528 /* BuyerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B97EEC92694619200893528 /* BuyerList.swift */; };
+		8B97EEF22694A9DF00893528 /* BuyerListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B97EEF02694A9DE00893528 /* BuyerListData.swift */; };
+		8B97EEF32694A9DF00893528 /* PropertyBuyerListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B97EEF12694A9DE00893528 /* PropertyBuyerListModel.swift */; };
+		8BB944F6268DC33B008B8C15 /* BuyerProfileFromAgentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB944F5268DC33B008B8C15 /* BuyerProfileFromAgentVC.swift */; };
+		8BB94530268DFCE0008B8C15 /* MyPropertyListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB9452F268DFCE0008B8C15 /* MyPropertyListVC.swift */; };
+		8BB945A3268E2983008B8C15 /* getVisitorListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB945A2268E2983008B8C15 /* getVisitorListCell.swift */; };
+		8BF933B426956E4100F2D275 /* DateListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF933B326956E4100F2D275 /* DateListCell.swift */; };
+		8BF933D42695C6E200F2D275 /* PropertyVisitorListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF933D32695C6E200F2D275 /* PropertyVisitorListVC.swift */; };
+		DF0632B72629994100909D52 /* ViewPropertyListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0632B62629994000909D52 /* ViewPropertyListModel.swift */; };
+		DF159BD326286AC600B5196C /* BrokerListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF159BD226286AC600B5196C /* BrokerListModel.swift */; };
+		DF2DC8FF260CAD64006C6735 /* PopupVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF2DC8E3260CAD63006C6735 /* PopupVC.xib */; };
+		DF2DC900260CAD64006C6735 /* DayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2DC8E4260CAD63006C6735 /* DayCollectionViewCell.swift */; };
+		DF2DC902260CAD64006C6735 /* DayCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF2DC8E6260CAD63006C6735 /* DayCollectionViewCell.xib */; };
+		DF2DC905260CAD64006C6735 /* ProfilePersonlaInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2DC8EA260CAD63006C6735 /* ProfilePersonlaInfoVC.swift */; };
+		DF2DC906260CAD64006C6735 /* ProfileContactDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2DC8EB260CAD63006C6735 /* ProfileContactDetailVC.swift */; };
+		DF2DC908260CAD64006C6735 /* AddPartnerPopUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2DC8ED260CAD63006C6735 /* AddPartnerPopUpVC.swift */; };
+		DF2DC909260CAD64006C6735 /* AddPartnerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2DC8EE260CAD63006C6735 /* AddPartnerVC.swift */; };
+		DF2DC90B260CAD64006C6735 /* PropertyDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2DC8F1260CAD63006C6735 /* PropertyDetailVC.swift */; };
+		DF2DC90D260CAD64006C6735 /* ParternerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2DC8F4260CAD64006C6735 /* ParternerTableViewCell.swift */; };
+		DF2DC90F260CAD64006C6735 /* PopupBrokerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2DC8F8260CAD64006C6735 /* PopupBrokerListVC.swift */; };
+		DF2DC910260CAD64006C6735 /* NextStepProfileSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2DC8FC260CAD64006C6735 /* NextStepProfileSetup.swift */; };
+		DF2DC911260CAD64006C6735 /* BrokerListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2DC8FD260CAD64006C6735 /* BrokerListTableViewCell.swift */; };
+		DF2DC912260CAD64006C6735 /* BrokerListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF2DC8FE260CAD64006C6735 /* BrokerListTableViewCell.xib */; };
+		DF2DC916260CBCF2006C6735 /* BuyerHomeVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2DC915260CBCF2006C6735 /* BuyerHomeVc.swift */; };
+		DF2DC918260CBD27006C6735 /* AgentHomeVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2DC917260CBD27006C6735 /* AgentHomeVc.swift */; };
+		DF2DC91A260CBDB2006C6735 /* ProfileAddLittleBitMoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2DC919260CBDB2006C6735 /* ProfileAddLittleBitMoreVC.swift */; };
+		DF2DC91C260CBE27006C6735 /* AskQuestionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2DC91B260CBE27006C6735 /* AskQuestionVC.swift */; };
+		DF2DC91E260CBE92006C6735 /* BuyerHomeTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2DC91D260CBE91006C6735 /* BuyerHomeTblCell.swift */; };
+		DF2DC922260CC6B2006C6735 /* BuyerProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2DC921260CC6B2006C6735 /* BuyerProfileVC.swift */; };
+		DF2DC924260CC7B3006C6735 /* ImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2DC923260CC7B2006C6735 /* ImageView+Extension.swift */; };
+		DF2DC926260CCCC5006C6735 /* PopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2DC925260CCCC5006C6735 /* PopupVC.swift */; };
+		DF2E3D2626240DD600F108A6 /* GetUserDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2E3D2526240DD600F108A6 /* GetUserDataModel.swift */; };
+		DF397FB32637F9E800767A4B /* Date_and_Time_BuyerProfileTabCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF397FB22637F9E800767A4B /* Date_and_Time_BuyerProfileTabCell.swift */; };
+		DF5A61C12609CAF900F1FF98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF5A61C02609CAF900F1FF98 /* Assets.xcassets */; };
+		DF5A61E22609CD2400F1FF98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5A61CC2609CD2400F1FF98 /* AppDelegate.swift */; };
+		DF5A61E32609CD2400F1FF98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5A61CD2609CD2400F1FF98 /* SceneDelegate.swift */; };
+		DF5A61E42609CD2400F1FF98 /* ChangePasswordVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5A61D12609CD2400F1FF98 /* ChangePasswordVc.swift */; };
+		DF5A61E52609CD2400F1FF98 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5A61D32609CD2400F1FF98 /* SignUpVC.swift */; };
+		DF5A61E62609CD2400F1FF98 /* ForgotPasswordVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5A61D52609CD2400F1FF98 /* ForgotPasswordVc.swift */; };
+		DF5A61E72609CD2400F1FF98 /* LoginVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5A61D72609CD2400F1FF98 /* LoginVc.swift */; };
+		DF5A61E92609CD2400F1FF98 /* CreateBuyerVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5A61DC2609CD2400F1FF98 /* CreateBuyerVc.swift */; };
+		DF5A61EA2609CD2400F1FF98 /* ProfileVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5A61DE2609CD2400F1FF98 /* ProfileVc.swift */; };
+		DF5A61EB2609CD2400F1FF98 /* HomeTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5A61E12609CD2400F1FF98 /* HomeTblCell.swift */; };
+		DF5A62262609CD3400F1FF98 /* QRScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5A61ED2609CD3200F1FF98 /* QRScannerController.swift */; };
+		DF5A62272609CD3400F1FF98 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5A61EF2609CD3200F1FF98 /* Connection.swift */; };
+		DF5A62282609CD3400F1FF98 /* UIAlertController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5A61F12609CD3200F1FF98 /* UIAlertController+Extension.swift */; };
+		DF5A62292609CD3400F1FF98 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5A61F22609CD3200F1FF98 /* UIFont+Extension.swift */; };
+		DF5A622A2609CD3400F1FF98 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5A61F32609CD3300F1FF98 /* UIColor+Extension.swift */; };
+		DF5A622B2609CD3400F1FF98 /* DateExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5A61F42609CD3300F1FF98 /* DateExtenstion.swift */; };
+		DF5A622C2609CD3400F1FF98 /* GetDeviceModelNameExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5A61F52609CD3300F1FF98 /* GetDeviceModelNameExtension.swift */; };
+		DF5A622D2609CD3400F1FF98 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5A61F62609CD3300F1FF98 /* String+Extension.swift */; };
+		DF5A622E2609CD3400F1FF98 /* DictionaryExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5A61F72609CD3300F1FF98 /* DictionaryExtention.swift */; };
+		DF5A622F2609CD3400F1FF98 /* UITextfield+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5A61F82609CD3300F1FF98 /* UITextfield+Extension.swift */; };
+		DF5A62322609CD3400F1FF98 /* UserDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5A61FF2609CD3300F1FF98 /* UserDataModel.swift */; };
+		DF5A62332609CD3400F1FF98 /* ProfilimageVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5A62032609CD3300F1FF98 /* ProfilimageVc.swift */; };
+		DF5A62342609CD3400F1FF98 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5A62052609CD3300F1FF98 /* Constant.swift */; };
+		DF5A62352609CD3400F1FF98 /* UiImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5A62062609CD3300F1FF98 /* UiImagePicker.swift */; };
+		DF5A62362609CD3400F1FF98 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5A62072609CD3300F1FF98 /* Utils.swift */; };
+		DF5A62372609CD3400F1FF98 /* AppStoryBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5A62082609CD3300F1FF98 /* AppStoryBoard.swift */; };
+		DF5A62382609CD3400F1FF98 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5A620A2609CD3300F1FF98 /* APIManager.swift */; };
+		DF5A62392609CD3400F1FF98 /* SharedManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5A620B2609CD3300F1FF98 /* SharedManager.swift */; };
+		DF5A623A2609CD3400F1FF98 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5A620C2609CD3300F1FF98 /* LocationManager.swift */; };
+		DF5A623B2609CD3400F1FF98 /* Permission.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5A620E2609CD3300F1FF98 /* Permission.swift */; };
+		DF5A623C2609CD3400F1FF98 /* Proxima Nova Alt Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF5A62102609CD3300F1FF98 /* Proxima Nova Alt Thin.otf */; };
+		DF5A623D2609CD3400F1FF98 /* Proxima Nova Alt Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF5A62112609CD3300F1FF98 /* Proxima Nova Alt Bold.otf */; };
+		DF5A623E2609CD3400F1FF98 /* FontsFree-Net-Proxima-Nova-Sbold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF5A62122609CD3300F1FF98 /* FontsFree-Net-Proxima-Nova-Sbold.otf */; };
+		DF5A623F2609CD3400F1FF98 /* Proxima Nova Extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF5A62132609CD3300F1FF98 /* Proxima Nova Extrabold.otf */; };
+		DF5A62402609CD3400F1FF98 /* Proxima Nova Alt Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF5A62142609CD3300F1FF98 /* Proxima Nova Alt Light.otf */; };
+		DF5A62412609CD3400F1FF98 /* Proxima Nova Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF5A62152609CD3300F1FF98 /* Proxima Nova Black.otf */; };
+		DF5A62422609CD3400F1FF98 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF5A62172609CD3300F1FF98 /* Roboto-Medium.ttf */; };
+		DF5A62432609CD3400F1FF98 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF5A62182609CD3300F1FF98 /* Roboto-Light.ttf */; };
+		DF5A62442609CD3400F1FF98 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF5A62192609CD3300F1FF98 /* Roboto-Regular.ttf */; };
+		DF5A62452609CD3400F1FF98 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF5A621A2609CD3300F1FF98 /* Roboto-MediumItalic.ttf */; };
+		DF5A62462609CD3400F1FF98 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF5A621B2609CD3300F1FF98 /* Roboto-ThinItalic.ttf */; };
+		DF5A62472609CD3400F1FF98 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF5A621C2609CD3400F1FF98 /* Roboto-BoldItalic.ttf */; };
+		DF5A62482609CD3400F1FF98 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF5A621D2609CD3400F1FF98 /* Roboto-LightItalic.ttf */; };
+		DF5A62492609CD3400F1FF98 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF5A621E2609CD3400F1FF98 /* Roboto-Italic.ttf */; };
+		DF5A624A2609CD3400F1FF98 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF5A621F2609CD3400F1FF98 /* Roboto-BlackItalic.ttf */; };
+		DF5A624B2609CD3400F1FF98 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF5A62202609CD3400F1FF98 /* Roboto-Bold.ttf */; };
+		DF5A624C2609CD3400F1FF98 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF5A62212609CD3400F1FF98 /* Roboto-Thin.ttf */; };
+		DF5A624D2609CD3400F1FF98 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF5A62222609CD3400F1FF98 /* Roboto-Black.ttf */; };
+		DF5A624E2609CD3400F1FF98 /* Proxima Nova Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF5A62232609CD3400F1FF98 /* Proxima Nova Bold.otf */; };
+		DF5A624F2609CD3400F1FF98 /* ProximaNova-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF5A62242609CD3400F1FF98 /* ProximaNova-Regular.otf */; };
+		DF5A62502609CD3400F1FF98 /* Proxima Nova Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF5A62252609CD3400F1FF98 /* Proxima Nova Thin.otf */; };
+		DF5A625C2609CF1000F1FF98 /* PreLogin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF5A625A2609CF1000F1FF98 /* PreLogin.storyboard */; };
+		DF5A625F2609CF3200F1FF98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF5A625D2609CF3200F1FF98 /* LaunchScreen.storyboard */; };
+		DF5A62622609CF7600F1FF98 /* Agent.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF5A62602609CF7600F1FF98 /* Agent.storyboard */; };
+		DF5A62652609CF8600F1FF98 /* Buyer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF5A62632609CF8600F1FF98 /* Buyer.storyboard */; };
+		DF5A6268260A069100F1FF98 /* UserSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5A6267260A069100F1FF98 /* UserSelectionVC.swift */; };
+		DF627A5A2627FC2A003FBBB7 /* Partners.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF627A562627FC29003FBBB7 /* Partners.swift */; };
+		DF627A5B2627FC2A003FBBB7 /* PreferredSuburbs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF627A572627FC29003FBBB7 /* PreferredSuburbs.swift */; };
+		DF627A5C2627FC2A003FBBB7 /* AvailabilityTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF627A582627FC29003FBBB7 /* AvailabilityTime.swift */; };
+		DF627A5D2627FC2A003FBBB7 /* GetBuyerProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF627A592627FC29003FBBB7 /* GetBuyerProfileModel.swift */; };
+		DF9E40A426318E7600213F63 /* PartenerProfileTabCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9E40A326318E7600213F63 /* PartenerProfileTabCell.swift */; };
+		DFB70B0F26295BA400E60357 /* EditBuyerProfileVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB70B0E26295BA400E60357 /* EditBuyerProfileVc.swift */; };
+		DFD6AAAC26B3FBE10093B74C /* SerchBuyerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD6AAAB26B3FBE10093B74C /* SerchBuyerVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		008A74DD9273CA383752EFA9 /* Pods-realpass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realpass.debug.xcconfig"; path = "Target Support Files/Pods-realpass/Pods-realpass.debug.xcconfig"; sourceTree = "<group>"; };
+		3858A88B82E85B776BCAD22E /* Pods_realpass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_realpass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B22CE09261455F7007FCFF5 /* ContactDayStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDayStatus.swift; sourceTree = "<group>"; };
+		8B3ABF31261C6FA50093E218 /* BrokerListVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrokerListVc.swift; sourceTree = "<group>"; };
+		8B521FF6261591C300D6E2E9 /* SubrubsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubrubsVC.swift; sourceTree = "<group>"; };
+		8B521FF926159C4100D6E2E9 /* SubrubsCellVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubrubsCellVC.swift; sourceTree = "<group>"; };
+		8B523BC52620791B00B2AAA2 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = File.swift; path = realpass/Buyer/SetupProfile/File.swift; sourceTree = SOURCE_ROOT; };
+		8B79B0A1261DBE6A007E7449 /* PresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationController.swift; sourceTree = "<group>"; };
+		8B8DBBD82657FC1A001EE74F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8B97EEC92694619200893528 /* BuyerList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyerList.swift; sourceTree = "<group>"; };
+		8B97EEF02694A9DE00893528 /* BuyerListData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyerListData.swift; sourceTree = "<group>"; };
+		8B97EEF12694A9DE00893528 /* PropertyBuyerListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyBuyerListModel.swift; sourceTree = "<group>"; };
+		8BB944F5268DC33B008B8C15 /* BuyerProfileFromAgentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyerProfileFromAgentVC.swift; sourceTree = "<group>"; };
+		8BB9452F268DFCE0008B8C15 /* MyPropertyListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPropertyListVC.swift; sourceTree = "<group>"; };
+		8BB945A2268E2983008B8C15 /* getVisitorListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getVisitorListCell.swift; sourceTree = "<group>"; };
+		8BF933B326956E4100F2D275 /* DateListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateListCell.swift; sourceTree = "<group>"; };
+		8BF933D32695C6E200F2D275 /* PropertyVisitorListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyVisitorListVC.swift; sourceTree = "<group>"; };
+		C3F475C6EB37147EC763A5E9 /* Pods-realpass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realpass.release.xcconfig"; path = "Target Support Files/Pods-realpass/Pods-realpass.release.xcconfig"; sourceTree = "<group>"; };
+		DF0632B62629994000909D52 /* ViewPropertyListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPropertyListModel.swift; sourceTree = "<group>"; };
+		DF159BD226286AC600B5196C /* BrokerListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrokerListModel.swift; sourceTree = "<group>"; };
+		DF2DC8E3260CAD63006C6735 /* PopupVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopupVC.xib; sourceTree = "<group>"; };
+		DF2DC8E4260CAD63006C6735 /* DayCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayCollectionViewCell.swift; sourceTree = "<group>"; };
+		DF2DC8E6260CAD63006C6735 /* DayCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DayCollectionViewCell.xib; sourceTree = "<group>"; };
+		DF2DC8EA260CAD63006C6735 /* ProfilePersonlaInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilePersonlaInfoVC.swift; sourceTree = "<group>"; };
+		DF2DC8EB260CAD63006C6735 /* ProfileContactDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileContactDetailVC.swift; sourceTree = "<group>"; };
+		DF2DC8ED260CAD63006C6735 /* AddPartnerPopUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPartnerPopUpVC.swift; sourceTree = "<group>"; };
+		DF2DC8EE260CAD63006C6735 /* AddPartnerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPartnerVC.swift; sourceTree = "<group>"; };
+		DF2DC8F1260CAD63006C6735 /* PropertyDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyDetailVC.swift; sourceTree = "<group>"; };
+		DF2DC8F4260CAD64006C6735 /* ParternerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParternerTableViewCell.swift; sourceTree = "<group>"; };
+		DF2DC8F8260CAD64006C6735 /* PopupBrokerListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupBrokerListVC.swift; sourceTree = "<group>"; };
+		DF2DC8FC260CAD64006C6735 /* NextStepProfileSetup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextStepProfileSetup.swift; sourceTree = "<group>"; };
+		DF2DC8FD260CAD64006C6735 /* BrokerListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrokerListTableViewCell.swift; sourceTree = "<group>"; };
+		DF2DC8FE260CAD64006C6735 /* BrokerListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BrokerListTableViewCell.xib; sourceTree = "<group>"; };
+		DF2DC915260CBCF2006C6735 /* BuyerHomeVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyerHomeVc.swift; sourceTree = "<group>"; };
+		DF2DC917260CBD27006C6735 /* AgentHomeVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgentHomeVc.swift; sourceTree = "<group>"; };
+		DF2DC919260CBDB2006C6735 /* ProfileAddLittleBitMoreVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileAddLittleBitMoreVC.swift; sourceTree = "<group>"; };
+		DF2DC91B260CBE27006C6735 /* AskQuestionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AskQuestionVC.swift; sourceTree = "<group>"; };
+		DF2DC91D260CBE91006C6735 /* BuyerHomeTblCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyerHomeTblCell.swift; sourceTree = "<group>"; };
+		DF2DC921260CC6B2006C6735 /* BuyerProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyerProfileVC.swift; sourceTree = "<group>"; };
+		DF2DC923260CC7B2006C6735 /* ImageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ImageView+Extension.swift"; sourceTree = "<group>"; };
+		DF2DC925260CCCC5006C6735 /* PopupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupVC.swift; sourceTree = "<group>"; };
+		DF2E3D2526240DD600F108A6 /* GetUserDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUserDataModel.swift; sourceTree = "<group>"; };
+		DF2E4E7C266A393C0001358C /* realpass.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = realpass.entitlements; sourceTree = "<group>"; };
+		DF397FB22637F9E800767A4B /* Date_and_Time_BuyerProfileTabCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date_and_Time_BuyerProfileTabCell.swift; sourceTree = "<group>"; };
+		DF5A61B42609CAF600F1FF98 /* realpass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = realpass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF5A61C02609CAF900F1FF98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF5A61C52609CAF900F1FF98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF5A61CC2609CD2400F1FF98 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF5A61CD2609CD2400F1FF98 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DF5A61D12609CD2400F1FF98 /* ChangePasswordVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePasswordVc.swift; sourceTree = "<group>"; };
+		DF5A61D32609CD2400F1FF98 /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		DF5A61D52609CD2400F1FF98 /* ForgotPasswordVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVc.swift; sourceTree = "<group>"; };
+		DF5A61D72609CD2400F1FF98 /* LoginVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVc.swift; sourceTree = "<group>"; };
+		DF5A61DC2609CD2400F1FF98 /* CreateBuyerVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateBuyerVc.swift; sourceTree = "<group>"; };
+		DF5A61DE2609CD2400F1FF98 /* ProfileVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVc.swift; sourceTree = "<group>"; };
+		DF5A61E12609CD2400F1FF98 /* HomeTblCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTblCell.swift; sourceTree = "<group>"; };
+		DF5A61ED2609CD3200F1FF98 /* QRScannerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScannerController.swift; sourceTree = "<group>"; };
+		DF5A61EF2609CD3200F1FF98 /* Connection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		DF5A61F12609CD3200F1FF98 /* UIAlertController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Extension.swift"; sourceTree = "<group>"; };
+		DF5A61F22609CD3200F1FF98 /* UIFont+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		DF5A61F32609CD3300F1FF98 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		DF5A61F42609CD3300F1FF98 /* DateExtenstion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtenstion.swift; sourceTree = "<group>"; };
+		DF5A61F52609CD3300F1FF98 /* GetDeviceModelNameExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetDeviceModelNameExtension.swift; sourceTree = "<group>"; };
+		DF5A61F62609CD3300F1FF98 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		DF5A61F72609CD3300F1FF98 /* DictionaryExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryExtention.swift; sourceTree = "<group>"; };
+		DF5A61F82609CD3300F1FF98 /* UITextfield+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextfield+Extension.swift"; sourceTree = "<group>"; };
+		DF5A61FF2609CD3300F1FF98 /* UserDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDataModel.swift; sourceTree = "<group>"; };
+		DF5A62032609CD3300F1FF98 /* ProfilimageVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilimageVc.swift; sourceTree = "<group>"; };
+		DF5A62052609CD3300F1FF98 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		DF5A62062609CD3300F1FF98 /* UiImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UiImagePicker.swift; sourceTree = "<group>"; };
+		DF5A62072609CD3300F1FF98 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		DF5A62082609CD3300F1FF98 /* AppStoryBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStoryBoard.swift; sourceTree = "<group>"; };
+		DF5A620A2609CD3300F1FF98 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		DF5A620B2609CD3300F1FF98 /* SharedManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedManager.swift; sourceTree = "<group>"; };
+		DF5A620C2609CD3300F1FF98 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		DF5A620E2609CD3300F1FF98 /* Permission.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Permission.swift; sourceTree = "<group>"; };
+		DF5A62102609CD3300F1FF98 /* Proxima Nova Alt Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Alt Thin.otf"; sourceTree = "<group>"; };
+		DF5A62112609CD3300F1FF98 /* Proxima Nova Alt Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Alt Bold.otf"; sourceTree = "<group>"; };
+		DF5A62122609CD3300F1FF98 /* FontsFree-Net-Proxima-Nova-Sbold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FontsFree-Net-Proxima-Nova-Sbold.otf"; sourceTree = "<group>"; };
+		DF5A62132609CD3300F1FF98 /* Proxima Nova Extrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Extrabold.otf"; sourceTree = "<group>"; };
+		DF5A62142609CD3300F1FF98 /* Proxima Nova Alt Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Alt Light.otf"; sourceTree = "<group>"; };
+		DF5A62152609CD3300F1FF98 /* Proxima Nova Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Black.otf"; sourceTree = "<group>"; };
+		DF5A62172609CD3300F1FF98 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		DF5A62182609CD3300F1FF98 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		DF5A62192609CD3300F1FF98 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		DF5A621A2609CD3300F1FF98 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		DF5A621B2609CD3300F1FF98 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		DF5A621C2609CD3400F1FF98 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		DF5A621D2609CD3400F1FF98 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		DF5A621E2609CD3400F1FF98 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		DF5A621F2609CD3400F1FF98 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		DF5A62202609CD3400F1FF98 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		DF5A62212609CD3400F1FF98 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		DF5A62222609CD3400F1FF98 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		DF5A62232609CD3400F1FF98 /* Proxima Nova Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Bold.otf"; sourceTree = "<group>"; };
+		DF5A62242609CD3400F1FF98 /* ProximaNova-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Regular.otf"; sourceTree = "<group>"; };
+		DF5A62252609CD3400F1FF98 /* Proxima Nova Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Thin.otf"; sourceTree = "<group>"; };
+		DF5A625B2609CF1000F1FF98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = PreLogin.storyboard; sourceTree = "<group>"; };
+		DF5A625E2609CF3200F1FF98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF5A62612609CF7600F1FF98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Agent.storyboard; sourceTree = "<group>"; };
+		DF5A62642609CF8600F1FF98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Buyer.storyboard; sourceTree = "<group>"; };
+		DF5A6267260A069100F1FF98 /* UserSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSelectionVC.swift; sourceTree = "<group>"; };
+		DF627A562627FC29003FBBB7 /* Partners.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Partners.swift; sourceTree = "<group>"; };
+		DF627A572627FC29003FBBB7 /* PreferredSuburbs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferredSuburbs.swift; sourceTree = "<group>"; };
+		DF627A582627FC29003FBBB7 /* AvailabilityTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvailabilityTime.swift; sourceTree = "<group>"; };
+		DF627A592627FC29003FBBB7 /* GetBuyerProfileModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetBuyerProfileModel.swift; sourceTree = "<group>"; };
+		DF9E40A326318E7600213F63 /* PartenerProfileTabCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartenerProfileTabCell.swift; sourceTree = "<group>"; };
+		DFB70B0E26295BA400E60357 /* EditBuyerProfileVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditBuyerProfileVc.swift; sourceTree = "<group>"; };
+		DFD6AAAB26B3FBE10093B74C /* SerchBuyerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerchBuyerVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF5A61B12609CAF600F1FF98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1648F75F7644F9A7944E0201 /* Pods_realpass.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		285E9A8A65D2FB1D91276F32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				008A74DD9273CA383752EFA9 /* Pods-realpass.debug.xcconfig */,
+				C3F475C6EB37147EC763A5E9 /* Pods-realpass.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8B22CE08261455F7007FCFF5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8B523BC52620791B00B2AAA2 /* File.swift */,
+				8B22CE09261455F7007FCFF5 /* ContactDayStatus.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF8EE02B18B466003FD6B62F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3858A88B82E85B776BCAD22E /* Pods_realpass.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF2DC8E2260CAD63006C6735 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				DF2DC8E3260CAD63006C6735 /* PopupVC.xib */,
+				DF2DC8E4260CAD63006C6735 /* DayCollectionViewCell.swift */,
+				DF2DC8E6260CAD63006C6735 /* DayCollectionViewCell.xib */,
+			);
+			path = XIB;
+			sourceTree = "<group>";
+		};
+		DF2DC8E9260CAD63006C6735 /* SetupProfile */ = {
+			isa = PBXGroup;
+			children = (
+				DF2DC925260CCCC5006C6735 /* PopupVC.swift */,
+				DF2DC921260CC6B2006C6735 /* BuyerProfileVC.swift */,
+				DF2DC91B260CBE27006C6735 /* AskQuestionVC.swift */,
+				DF2DC919260CBDB2006C6735 /* ProfileAddLittleBitMoreVC.swift */,
+				DF2DC8EA260CAD63006C6735 /* ProfilePersonlaInfoVC.swift */,
+				DF2DC8EB260CAD63006C6735 /* ProfileContactDetailVC.swift */,
+				DF2DC8ED260CAD63006C6735 /* AddPartnerPopUpVC.swift */,
+				DF2DC8EE260CAD63006C6735 /* AddPartnerVC.swift */,
+				8B521FF6261591C300D6E2E9 /* SubrubsVC.swift */,
+			);
+			path = SetupProfile;
+			sourceTree = "<group>";
+		};
+		DF2DC8F0260CAD63006C6735 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DF2DC915260CBCF2006C6735 /* BuyerHomeVc.swift */,
+				DF2DC8F1260CAD63006C6735 /* PropertyDetailVC.swift */,
+				8B3ABF31261C6FA50093E218 /* BrokerListVc.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DF2DC8F3260CAD64006C6735 /* CellFile */ = {
+			isa = PBXGroup;
+			children = (
+				DF2DC8F4260CAD64006C6735 /* ParternerTableViewCell.swift */,
+				8B521FF926159C4100D6E2E9 /* SubrubsCellVC.swift */,
+				DF9E40A326318E7600213F63 /* PartenerProfileTabCell.swift */,
+				DF397FB22637F9E800767A4B /* Date_and_Time_BuyerProfileTabCell.swift */,
+			);
+			path = CellFile;
+			sourceTree = "<group>";
+		};
+		DF2DC8F5260CAD64006C6735 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DF2DC8F6260CAD64006C6735 /* UITableViewCell */,
+				DF2DC8FA260CAD64006C6735 /* UICollectionViewCell */,
+				DF2DC8FB260CAD64006C6735 /* CustomView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DF2DC8F6260CAD64006C6735 /* UITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DF2DC91D260CBE91006C6735 /* BuyerHomeTblCell.swift */,
+				DF2DC8F8260CAD64006C6735 /* PopupBrokerListVC.swift */,
+				DF2DC8F9260CAD64006C6735 /* VenueTableViewCell */,
+			);
+			path = UITableViewCell;
+			sourceTree = "<group>";
+		};
+		DF2DC8F9260CAD64006C6735 /* VenueTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VenueTableViewCell;
+			sourceTree = "<group>";
+		};
+		DF2DC8FA260CAD64006C6735 /* UICollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UICollectionViewCell;
+			sourceTree = "<group>";
+		};
+		DF2DC8FB260CAD64006C6735 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				DF2DC8FC260CAD64006C6735 /* NextStepProfileSetup.swift */,
+				DF2DC8FD260CAD64006C6735 /* BrokerListTableViewCell.swift */,
+				DF2DC8FE260CAD64006C6735 /* BrokerListTableViewCell.xib */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		DF5A61AB2609CAF600F1FF98 = {
+			isa = PBXGroup;
+			children = (
+				DF5A61B62609CAF600F1FF98 /* realpass */,
+				DF5A61B52609CAF600F1FF98 /* Products */,
+				285E9A8A65D2FB1D91276F32 /* Pods */,
+				BF8EE02B18B466003FD6B62F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DF5A61B52609CAF600F1FF98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF5A61B42609CAF600F1FF98 /* realpass.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF5A61B62609CAF600F1FF98 /* realpass */ = {
+			isa = PBXGroup;
+			children = (
+				DF2E4E7C266A393C0001358C /* realpass.entitlements */,
+				DF5A61C02609CAF900F1FF98 /* Assets.xcassets */,
+				DF5A61F92609CD3300F1FF98 /* Base.lproj */,
+				DF5A62042609CD3300F1FF98 /* Common */,
+				DF5A61F02609CD3200F1FF98 /* Extensions */,
+				DF5A620F2609CD3300F1FF98 /* Font */,
+				DF5A620D2609CD3300F1FF98 /* KeyPermissionStatus */,
+				DF5A62092609CD3300F1FF98 /* Managers */,
+				DF5A62012609CD3300F1FF98 /* Media */,
+				DF5A61FE2609CD3300F1FF98 /* Models */,
+				DF5A62022609CD3300F1FF98 /* ProfileImage */,
+				DF5A61EC2609CD3200F1FF98 /* QRScanner */,
+				DF5A6266260A066300F1FF98 /* UserSelection */,
+				DF5A62002609CD3300F1FF98 /* SupportImages */,
+				DF5A61EE2609CD3200F1FF98 /* SupportingFiles */,
+				DF5A61D82609CD2400F1FF98 /* Agent */,
+				DF5A61CB2609CD2400F1FF98 /* AppDelegate */,
+				DF5A61CE2609CD2400F1FF98 /* Buyer */,
+				DF5A61CF2609CD2400F1FF98 /* PreLogin */,
+				DF5A61C52609CAF900F1FF98 /* Info.plist */,
+				8B8DBBD82657FC1A001EE74F /* GoogleService-Info.plist */,
+			);
+			path = realpass;
+			sourceTree = "<group>";
+		};
+		DF5A61CB2609CD2400F1FF98 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				DF5A61CC2609CD2400F1FF98 /* AppDelegate.swift */,
+				DF5A61CD2609CD2400F1FF98 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		DF5A61CE2609CD2400F1FF98 /* Buyer */ = {
+			isa = PBXGroup;
+			children = (
+				DFB70B0D26295BA400E60357 /* EditProfile */,
+				8B22CE08261455F7007FCFF5 /* Model */,
+				DF2DC8F3260CAD64006C6735 /* CellFile */,
+				DF2DC8F0260CAD63006C6735 /* Home */,
+				DF2DC8E9260CAD63006C6735 /* SetupProfile */,
+				DF2DC8F5260CAD64006C6735 /* Views */,
+				DF2DC8E2260CAD63006C6735 /* XIB */,
+			);
+			path = Buyer;
+			sourceTree = "<group>";
+		};
+		DF5A61CF2609CD2400F1FF98 /* PreLogin */ = {
+			isa = PBXGroup;
+			children = (
+				DF5A61D02609CD2400F1FF98 /* ChandePassword */,
+				DF5A61D22609CD2400F1FF98 /* Sign up */,
+				DF5A61D42609CD2400F1FF98 /* ForgotPassword */,
+				DF5A61D62609CD2400F1FF98 /* Login */,
+			);
+			path = PreLogin;
+			sourceTree = "<group>";
+		};
+		DF5A61D02609CD2400F1FF98 /* ChandePassword */ = {
+			isa = PBXGroup;
+			children = (
+				DF5A61D12609CD2400F1FF98 /* ChangePasswordVc.swift */,
+			);
+			path = ChandePassword;
+			sourceTree = "<group>";
+		};
+		DF5A61D22609CD2400F1FF98 /* Sign up */ = {
+			isa = PBXGroup;
+			children = (
+				DF5A61D32609CD2400F1FF98 /* SignUpVC.swift */,
+			);
+			path = "Sign up";
+			sourceTree = "<group>";
+		};
+		DF5A61D42609CD2400F1FF98 /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				DF5A61D52609CD2400F1FF98 /* ForgotPasswordVc.swift */,
+			);
+			path = ForgotPassword;
+			sourceTree = "<group>";
+		};
+		DF5A61D62609CD2400F1FF98 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				DF5A61D72609CD2400F1FF98 /* LoginVc.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		DF5A61D82609CD2400F1FF98 /* Agent */ = {
+			isa = PBXGroup;
+			children = (
+				DFD6AAAA26B3FB3E0093B74C /* SerchBuyerVC */,
+				DF5A61D92609CD2400F1FF98 /* Home */,
+				DF5A61DB2609CD2400F1FF98 /* CreateBuyer */,
+				DF5A61DD2609CD2400F1FF98 /* Profile */,
+				DF5A61DF2609CD2400F1FF98 /* Views */,
+			);
+			path = Agent;
+			sourceTree = "<group>";
+		};
+		DF5A61D92609CD2400F1FF98 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8BF933D32695C6E200F2D275 /* PropertyVisitorListVC.swift */,
+				8BB9452F268DFCE0008B8C15 /* MyPropertyListVC.swift */,
+				8BB944F5268DC33B008B8C15 /* BuyerProfileFromAgentVC.swift */,
+				DF2DC917260CBD27006C6735 /* AgentHomeVc.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DF5A61DB2609CD2400F1FF98 /* CreateBuyer */ = {
+			isa = PBXGroup;
+			children = (
+				DF5A61DC2609CD2400F1FF98 /* CreateBuyerVc.swift */,
+			);
+			path = CreateBuyer;
+			sourceTree = "<group>";
+		};
+		DF5A61DD2609CD2400F1FF98 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				DF5A61DE2609CD2400F1FF98 /* ProfileVc.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		DF5A61DF2609CD2400F1FF98 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DF5A61E02609CD2400F1FF98 /* UiTavleviewCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DF5A61E02609CD2400F1FF98 /* UiTavleviewCell */ = {
+			isa = PBXGroup;
+			children = (
+				8BF933B326956E4100F2D275 /* DateListCell.swift */,
+				DF5A61E12609CD2400F1FF98 /* HomeTblCell.swift */,
+				8BB945A2268E2983008B8C15 /* getVisitorListCell.swift */,
+			);
+			path = UiTavleviewCell;
+			sourceTree = "<group>";
+		};
+		DF5A61EC2609CD3200F1FF98 /* QRScanner */ = {
+			isa = PBXGroup;
+			children = (
+				DF5A61ED2609CD3200F1FF98 /* QRScannerController.swift */,
+			);
+			path = QRScanner;
+			sourceTree = "<group>";
+		};
+		DF5A61EE2609CD3200F1FF98 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				DF5A61EF2609CD3200F1FF98 /* Connection.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		DF5A61F02609CD3200F1FF98 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DF2DC923260CC7B2006C6735 /* ImageView+Extension.swift */,
+				DF5A61F12609CD3200F1FF98 /* UIAlertController+Extension.swift */,
+				DF5A61F22609CD3200F1FF98 /* UIFont+Extension.swift */,
+				DF5A61F32609CD3300F1FF98 /* UIColor+Extension.swift */,
+				DF5A61F42609CD3300F1FF98 /* DateExtenstion.swift */,
+				DF5A61F52609CD3300F1FF98 /* GetDeviceModelNameExtension.swift */,
+				DF5A61F62609CD3300F1FF98 /* String+Extension.swift */,
+				DF5A61F72609CD3300F1FF98 /* DictionaryExtention.swift */,
+				DF5A61F82609CD3300F1FF98 /* UITextfield+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DF5A61F92609CD3300F1FF98 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				DF5A625A2609CF1000F1FF98 /* PreLogin.storyboard */,
+				DF5A625D2609CF3200F1FF98 /* LaunchScreen.storyboard */,
+				DF5A62602609CF7600F1FF98 /* Agent.storyboard */,
+				DF5A62632609CF8600F1FF98 /* Buyer.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		DF5A61FE2609CD3300F1FF98 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8B97EEF02694A9DE00893528 /* BuyerListData.swift */,
+				8B97EEF12694A9DE00893528 /* PropertyBuyerListModel.swift */,
+				8B97EEC92694619200893528 /* BuyerList.swift */,
+				DF0632B62629994000909D52 /* ViewPropertyListModel.swift */,
+				DF159BD226286AC600B5196C /* BrokerListModel.swift */,
+				DF627A582627FC29003FBBB7 /* AvailabilityTime.swift */,
+				DF627A592627FC29003FBBB7 /* GetBuyerProfileModel.swift */,
+				DF627A562627FC29003FBBB7 /* Partners.swift */,
+				DF627A572627FC29003FBBB7 /* PreferredSuburbs.swift */,
+				DF2E3D2526240DD600F108A6 /* GetUserDataModel.swift */,
+				DF5A61FF2609CD3300F1FF98 /* UserDataModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DF5A62002609CD3300F1FF98 /* SupportImages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SupportImages;
+			sourceTree = "<group>";
+		};
+		DF5A62012609CD3300F1FF98 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		DF5A62022609CD3300F1FF98 /* ProfileImage */ = {
+			isa = PBXGroup;
+			children = (
+				DF5A62032609CD3300F1FF98 /* ProfilimageVc.swift */,
+			);
+			path = ProfileImage;
+			sourceTree = "<group>";
+		};
+		DF5A62042609CD3300F1FF98 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				8B79B0A1261DBE6A007E7449 /* PresentationController.swift */,
+				DF5A62052609CD3300F1FF98 /* Constant.swift */,
+				DF5A62062609CD3300F1FF98 /* UiImagePicker.swift */,
+				DF5A62072609CD3300F1FF98 /* Utils.swift */,
+				DF5A62082609CD3300F1FF98 /* AppStoryBoard.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		DF5A62092609CD3300F1FF98 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				DF5A620A2609CD3300F1FF98 /* APIManager.swift */,
+				DF5A620B2609CD3300F1FF98 /* SharedManager.swift */,
+				DF5A620C2609CD3300F1FF98 /* LocationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		DF5A620D2609CD3300F1FF98 /* KeyPermissionStatus */ = {
+			isa = PBXGroup;
+			children = (
+				DF5A620E2609CD3300F1FF98 /* Permission.swift */,
+			);
+			path = KeyPermissionStatus;
+			sourceTree = "<group>";
+		};
+		DF5A620F2609CD3300F1FF98 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				DF5A62102609CD3300F1FF98 /* Proxima Nova Alt Thin.otf */,
+				DF5A62112609CD3300F1FF98 /* Proxima Nova Alt Bold.otf */,
+				DF5A62122609CD3300F1FF98 /* FontsFree-Net-Proxima-Nova-Sbold.otf */,
+				DF5A62132609CD3300F1FF98 /* Proxima Nova Extrabold.otf */,
+				DF5A62142609CD3300F1FF98 /* Proxima Nova Alt Light.otf */,
+				DF5A62152609CD3300F1FF98 /* Proxima Nova Black.otf */,
+				DF5A62162609CD3300F1FF98 /* Roboto */,
+				DF5A62232609CD3400F1FF98 /* Proxima Nova Bold.otf */,
+				DF5A62242609CD3400F1FF98 /* ProximaNova-Regular.otf */,
+				DF5A62252609CD3400F1FF98 /* Proxima Nova Thin.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		DF5A62162609CD3300F1FF98 /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				DF5A62172609CD3300F1FF98 /* Roboto-Medium.ttf */,
+				DF5A62182609CD3300F1FF98 /* Roboto-Light.ttf */,
+				DF5A62192609CD3300F1FF98 /* Roboto-Regular.ttf */,
+				DF5A621A2609CD3300F1FF98 /* Roboto-MediumItalic.ttf */,
+				DF5A621B2609CD3300F1FF98 /* Roboto-ThinItalic.ttf */,
+				DF5A621C2609CD3400F1FF98 /* Roboto-BoldItalic.ttf */,
+				DF5A621D2609CD3400F1FF98 /* Roboto-LightItalic.ttf */,
+				DF5A621E2609CD3400F1FF98 /* Roboto-Italic.ttf */,
+				DF5A621F2609CD3400F1FF98 /* Roboto-BlackItalic.ttf */,
+				DF5A62202609CD3400F1FF98 /* Roboto-Bold.ttf */,
+				DF5A62212609CD3400F1FF98 /* Roboto-Thin.ttf */,
+				DF5A62222609CD3400F1FF98 /* Roboto-Black.ttf */,
+			);
+			path = Roboto;
+			sourceTree = "<group>";
+		};
+		DF5A6266260A066300F1FF98 /* UserSelection */ = {
+			isa = PBXGroup;
+			children = (
+				DF5A6267260A069100F1FF98 /* UserSelectionVC.swift */,
+			);
+			path = UserSelection;
+			sourceTree = "<group>";
+		};
+		DFB70B0D26295BA400E60357 /* EditProfile */ = {
+			isa = PBXGroup;
+			children = (
+				DFB70B0E26295BA400E60357 /* EditBuyerProfileVc.swift */,
+			);
+			path = EditProfile;
+			sourceTree = "<group>";
+		};
+		DFD6AAAA26B3FB3E0093B74C /* SerchBuyerVC */ = {
+			isa = PBXGroup;
+			children = (
+				DFD6AAAB26B3FBE10093B74C /* SerchBuyerVC.swift */,
+			);
+			path = SerchBuyerVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF5A61B32609CAF600F1FF98 /* realpass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF5A61C82609CAF900F1FF98 /* Build configuration list for PBXNativeTarget "realpass" */;
+			buildPhases = (
+				A68BBB4C719F7794928D0FC9 /* [CP] Check Pods Manifest.lock */,
+				DF5A61B02609CAF600F1FF98 /* Sources */,
+				DF5A61B12609CAF600F1FF98 /* Frameworks */,
+				DF5A61B22609CAF600F1FF98 /* Resources */,
+				FC508102F4B9A5F124CFB88F /* [CP] Embed Pods Frameworks */,
+				A18BB1152E0D57406813C65B /* [CP] Copy Pods Resources */,
+				8B5BCD4F2655430A00E1E0BE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = realpass;
+			productName = realpass;
+			productReference = DF5A61B42609CAF600F1FF98 /* realpass.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF5A61AC2609CAF600F1FF98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "patel chandan";
+				TargetAttributes = {
+					DF5A61B32609CAF600F1FF98 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = DF5A61AF2609CAF600F1FF98 /* Build configuration list for PBXProject "realpass" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF5A61AB2609CAF600F1FF98;
+			productRefGroup = DF5A61B52609CAF600F1FF98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF5A61B32609CAF600F1FF98 /* realpass */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF5A61B22609CAF600F1FF98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5A62462609CD3400F1FF98 /* Roboto-ThinItalic.ttf in Resources */,
+				DF5A62492609CD3400F1FF98 /* Roboto-Italic.ttf in Resources */,
+				DF5A62502609CD3400F1FF98 /* Proxima Nova Thin.otf in Resources */,
+				DF5A624B2609CD3400F1FF98 /* Roboto-Bold.ttf in Resources */,
+				DF5A624D2609CD3400F1FF98 /* Roboto-Black.ttf in Resources */,
+				DF5A62432609CD3400F1FF98 /* Roboto-Light.ttf in Resources */,
+				DF5A623F2609CD3400F1FF98 /* Proxima Nova Extrabold.otf in Resources */,
+				DF5A62452609CD3400F1FF98 /* Roboto-MediumItalic.ttf in Resources */,
+				DF5A62652609CF8600F1FF98 /* Buyer.storyboard in Resources */,
+				DF2DC8FF260CAD64006C6735 /* PopupVC.xib in Resources */,
+				DF5A625F2609CF3200F1FF98 /* LaunchScreen.storyboard in Resources */,
+				DF5A623E2609CD3400F1FF98 /* FontsFree-Net-Proxima-Nova-Sbold.otf in Resources */,
+				DF5A624A2609CD3400F1FF98 /* Roboto-BlackItalic.ttf in Resources */,
+				DF5A62412609CD3400F1FF98 /* Proxima Nova Black.otf in Resources */,
+				DF2DC912260CAD64006C6735 /* BrokerListTableViewCell.xib in Resources */,
+				DF5A624E2609CD3400F1FF98 /* Proxima Nova Bold.otf in Resources */,
+				DF5A623D2609CD3400F1FF98 /* Proxima Nova Alt Bold.otf in Resources */,
+				8B8DBBD92657FC1A001EE74F /* GoogleService-Info.plist in Resources */,
+				DF5A62472609CD3400F1FF98 /* Roboto-BoldItalic.ttf in Resources */,
+				DF5A624C2609CD3400F1FF98 /* Roboto-Thin.ttf in Resources */,
+				DF5A624F2609CD3400F1FF98 /* ProximaNova-Regular.otf in Resources */,
+				DF2DC902260CAD64006C6735 /* DayCollectionViewCell.xib in Resources */,
+				DF5A62482609CD3400F1FF98 /* Roboto-LightItalic.ttf in Resources */,
+				DF5A61C12609CAF900F1FF98 /* Assets.xcassets in Resources */,
+				DF5A625C2609CF1000F1FF98 /* PreLogin.storyboard in Resources */,
+				DF5A62422609CD3400F1FF98 /* Roboto-Medium.ttf in Resources */,
+				DF5A62442609CD3400F1FF98 /* Roboto-Regular.ttf in Resources */,
+				DF5A623C2609CD3400F1FF98 /* Proxima Nova Alt Thin.otf in Resources */,
+				DF5A62622609CF7600F1FF98 /* Agent.storyboard in Resources */,
+				DF5A62402609CD3400F1FF98 /* Proxima Nova Alt Light.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8B5BCD4F2655430A00E1E0BE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
+		};
+		A18BB1152E0D57406813C65B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-realpass/Pods-realpass-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-realpass/Pods-realpass-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-realpass/Pods-realpass-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A68BBB4C719F7794928D0FC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-realpass-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC508102F4B9A5F124CFB88F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-realpass/Pods-realpass-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-realpass/Pods-realpass-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-realpass/Pods-realpass-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF5A61B02609CAF600F1FF98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF2DC922260CC6B2006C6735 /* BuyerProfileVC.swift in Sources */,
+				DF5A62292609CD3400F1FF98 /* UIFont+Extension.swift in Sources */,
+				DF2DC911260CAD64006C6735 /* BrokerListTableViewCell.swift in Sources */,
+				DF2DC910260CAD64006C6735 /* NextStepProfileSetup.swift in Sources */,
+				DF5A61EB2609CD2400F1FF98 /* HomeTblCell.swift in Sources */,
+				DF2DC916260CBCF2006C6735 /* BuyerHomeVc.swift in Sources */,
+				DF2E3D2626240DD600F108A6 /* GetUserDataModel.swift in Sources */,
+				DF5A62382609CD3400F1FF98 /* APIManager.swift in Sources */,
+				8B22CE0A261455F7007FCFF5 /* ContactDayStatus.swift in Sources */,
+				DF5A62262609CD3400F1FF98 /* QRScannerController.swift in Sources */,
+				8BB944F6268DC33B008B8C15 /* BuyerProfileFromAgentVC.swift in Sources */,
+				DF2DC91E260CBE92006C6735 /* BuyerHomeTblCell.swift in Sources */,
+				DF2DC90F260CAD64006C6735 /* PopupBrokerListVC.swift in Sources */,
+				DF2DC924260CC7B3006C6735 /* ImageView+Extension.swift in Sources */,
+				8B97EEF22694A9DF00893528 /* BuyerListData.swift in Sources */,
+				DF5A61E52609CD2400F1FF98 /* SignUpVC.swift in Sources */,
+				DF397FB32637F9E800767A4B /* Date_and_Time_BuyerProfileTabCell.swift in Sources */,
+				DF5A623A2609CD3400F1FF98 /* LocationManager.swift in Sources */,
+				DF5A62362609CD3400F1FF98 /* Utils.swift in Sources */,
+				DF5A61E92609CD2400F1FF98 /* CreateBuyerVc.swift in Sources */,
+				DF5A6268260A069100F1FF98 /* UserSelectionVC.swift in Sources */,
+				DF159BD326286AC600B5196C /* BrokerListModel.swift in Sources */,
+				DF5A61E22609CD2400F1FF98 /* AppDelegate.swift in Sources */,
+				DF5A61E72609CD2400F1FF98 /* LoginVc.swift in Sources */,
+				DF2DC90D260CAD64006C6735 /* ParternerTableViewCell.swift in Sources */,
+				8B79B0A2261DBE6B007E7449 /* PresentationController.swift in Sources */,
+				8B97EECC2694619300893528 /* BuyerList.swift in Sources */,
+				DF2DC905260CAD64006C6735 /* ProfilePersonlaInfoVC.swift in Sources */,
+				DFB70B0F26295BA400E60357 /* EditBuyerProfileVc.swift in Sources */,
+				DF5A622E2609CD3400F1FF98 /* DictionaryExtention.swift in Sources */,
+				8B97EEF32694A9DF00893528 /* PropertyBuyerListModel.swift in Sources */,
+				DF627A5A2627FC2A003FBBB7 /* Partners.swift in Sources */,
+				DF5A62322609CD3400F1FF98 /* UserDataModel.swift in Sources */,
+				DF627A5D2627FC2A003FBBB7 /* GetBuyerProfileModel.swift in Sources */,
+				DF5A62342609CD3400F1FF98 /* Constant.swift in Sources */,
+				DF9E40A426318E7600213F63 /* PartenerProfileTabCell.swift in Sources */,
+				DF5A623B2609CD3400F1FF98 /* Permission.swift in Sources */,
+				DF5A622C2609CD3400F1FF98 /* GetDeviceModelNameExtension.swift in Sources */,
+				8BF933B426956E4100F2D275 /* DateListCell.swift in Sources */,
+				DF627A5C2627FC2A003FBBB7 /* AvailabilityTime.swift in Sources */,
+				DF5A62272609CD3400F1FF98 /* Connection.swift in Sources */,
+				8B3ABF32261C6FA50093E218 /* BrokerListVc.swift in Sources */,
+				DF0632B72629994100909D52 /* ViewPropertyListModel.swift in Sources */,
+				8B521FFA26159C4100D6E2E9 /* SubrubsCellVC.swift in Sources */,
+				DF5A62352609CD3400F1FF98 /* UiImagePicker.swift in Sources */,
+				DF5A622D2609CD3400F1FF98 /* String+Extension.swift in Sources */,
+				DF5A622A2609CD3400F1FF98 /* UIColor+Extension.swift in Sources */,
+				DF5A62282609CD3400F1FF98 /* UIAlertController+Extension.swift in Sources */,
+				DF5A62372609CD3400F1FF98 /* AppStoryBoard.swift in Sources */,
+				DF2DC918260CBD27006C6735 /* AgentHomeVc.swift in Sources */,
+				DF5A61E62609CD2400F1FF98 /* ForgotPasswordVc.swift in Sources */,
+				8BB945A3268E2983008B8C15 /* getVisitorListCell.swift in Sources */,
+				8BB94530268DFCE0008B8C15 /* MyPropertyListVC.swift in Sources */,
+				DF5A62332609CD3400F1FF98 /* ProfilimageVc.swift in Sources */,
+				DF2DC908260CAD64006C6735 /* AddPartnerPopUpVC.swift in Sources */,
+				DF5A61E32609CD2400F1FF98 /* SceneDelegate.swift in Sources */,
+				DF5A61E42609CD2400F1FF98 /* ChangePasswordVc.swift in Sources */,
+				DF2DC91C260CBE27006C6735 /* AskQuestionVC.swift in Sources */,
+				DF2DC91A260CBDB2006C6735 /* ProfileAddLittleBitMoreVC.swift in Sources */,
+				8B523BC62620791B00B2AAA2 /* File.swift in Sources */,
+				DF2DC900260CAD64006C6735 /* DayCollectionViewCell.swift in Sources */,
+				DF5A62392609CD3400F1FF98 /* SharedManager.swift in Sources */,
+				DF2DC909260CAD64006C6735 /* AddPartnerVC.swift in Sources */,
+				DF2DC90B260CAD64006C6735 /* PropertyDetailVC.swift in Sources */,
+				DF2DC906260CAD64006C6735 /* ProfileContactDetailVC.swift in Sources */,
+				DF2DC926260CCCC5006C6735 /* PopupVC.swift in Sources */,
+				DF5A622F2609CD3400F1FF98 /* UITextfield+Extension.swift in Sources */,
+				DFD6AAAC26B3FBE10093B74C /* SerchBuyerVC.swift in Sources */,
+				DF5A622B2609CD3400F1FF98 /* DateExtenstion.swift in Sources */,
+				DF627A5B2627FC2A003FBBB7 /* PreferredSuburbs.swift in Sources */,
+				8BF933D42695C6E200F2D275 /* PropertyVisitorListVC.swift in Sources */,
+				DF5A61EA2609CD2400F1FF98 /* ProfileVc.swift in Sources */,
+				8B521FF7261591C300D6E2E9 /* SubrubsVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF5A625A2609CF1000F1FF98 /* PreLogin.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF5A625B2609CF1000F1FF98 /* Base */,
+			);
+			name = PreLogin.storyboard;
+			sourceTree = "<group>";
+		};
+		DF5A625D2609CF3200F1FF98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF5A625E2609CF3200F1FF98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DF5A62602609CF7600F1FF98 /* Agent.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF5A62612609CF7600F1FF98 /* Base */,
+			);
+			name = Agent.storyboard;
+			sourceTree = "<group>";
+		};
+		DF5A62632609CF8600F1FF98 /* Buyer.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF5A62642609CF8600F1FF98 /* Base */,
+			);
+			name = Buyer.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF5A61C62609CAF900F1FF98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF5A61C72609CAF900F1FF98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF5A61C92609CAF900F1FF98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 008A74DD9273CA383752EFA9 /* Pods-realpass.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = realpass/realpass.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development: Mathew Carter (9278387993)";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.5;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = B5NW9Y9PD4;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = realpass/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.realpass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = realpass_development_25May2021;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DF5A61CA2609CAF900F1FF98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3F475C6EB37147EC763A5E9 /* Pods-realpass.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = realpass/realpass.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development: Mathew Carter (9278387993)";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.5;
+				DEVELOPMENT_TEAM = B5NW9Y9PD4;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = realpass/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.realpass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = realpass_development_25May2021;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF5A61AF2609CAF600F1FF98 /* Build configuration list for PBXProject "realpass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF5A61C62609CAF900F1FF98 /* Debug */,
+				DF5A61C72609CAF900F1FF98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DF5A61C82609CAF900F1FF98 /* Build configuration list for PBXNativeTarget "realpass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF5A61C92609CAF900F1FF98 /* Debug */,
+				DF5A61CA2609CAF900F1FF98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF5A61AC2609CAF600F1FF98 /* Project object */;
+}
